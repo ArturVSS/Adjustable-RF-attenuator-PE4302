@@ -14,15 +14,25 @@ PE4302 to 6-bitowy cyfrowy tłumik skokowy RF (DSA) o wysokiej liniowości, obej
 
 
 Podstawowe parametry:
+
 •	Tłumienie: co 0,5 dB do 31,5 dB
+
 •	Dokładność: do 1GHz +/-0.1dB +3%, powyżej 1GHz +/-0.15dB +5% 
+
 •	Pasmo przenoszenia: od DC do 4 GHz
+
 •	IP3 wejściowe: 52dB
+
 •	Maksymalna moc wchodząca: +24dBm
+
 •	Strata wtrąceniowa: 1.5dB
+
 •	Szybkość przełączania: 1uS
+
 •	Napięcie robocze: 3V
+
 •	Pobór prądu: 100uA
+
 
 Schemat wewnętrzny:
 <img width="360" height="146" alt="pe_inside" src="https://github.com/user-attachments/assets/4faffbb2-3f5d-450c-a911-4561fbcb173c" />
