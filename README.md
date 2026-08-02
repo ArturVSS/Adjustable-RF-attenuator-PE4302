@@ -35,12 +35,15 @@ Podstawowe parametry:
 
 
 Schemat wewnętrzny:
+
 <img width="360" height="146" alt="pe_inside" src="https://github.com/user-attachments/assets/4faffbb2-3f5d-450c-a911-4561fbcb173c" />
 
 Schemat podstawowy układu PE4302:
+
 <img width="394" height="296" alt="pe_sch" src="https://github.com/user-attachments/assets/7f5085e1-85b1-495d-aad9-5003352417be" />
 
 Charakterystyka tłumienia w paśmie:
+
 <img width="394" height="346" alt="pe_att" src="https://github.com/user-attachments/assets/0d16fabf-d45c-4ff1-bd80-44fda46f370d" />
 
 
