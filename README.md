@@ -36,18 +36,31 @@ Opis układu tłumika.
 Układ jest prosty. Sterowanie tłumika połączone jest z ESP32 ośmioma przewodami: zasilanie, masa i 6 sygnałów sterujących. Wyświetlacz OLED pracuje na magistrali i2c więc oprócz zasilania i masy wymaga tylko dwóch przewodów. Wraz z wyświetlaczem na płytce jest zainstalowany enkoder, on podłączony jest trzema przewodami: dwa do impulsów enkodera i jeden do przycisku, masa jest wykorzystana z masy wyświetlacza.
 PE4302:
 •	GPIO25 -> C0.5
+
 •	GPIO26 -> C1
+
 •	GPIO27 -> C2
+
 •	GPIO32 -> C4
+
 •	GPIO33 -> C8
+
 •	GPIO23 -> C16
+
 OLED:
+
 •	GPIO21 -> SDA
+
 •	GPIO22 -> SCL
+
 Enkoder:
+
 •	GPIO19 -> A 
+
 •	GPIO18 -> B
+
 •	GPIO5 -> SW 
+
 Do wyświetlacza OLED podłączyłem napięcie 5V a do modułu PE4302 napięcie 3V z modułu ESP32.
 
 
