@@ -35,6 +35,7 @@ Elementy wykorzystane do budowy tłumika:
 Opis układu tłumika.
 Układ jest prosty. Sterowanie tłumika połączone jest z ESP32 ośmioma przewodami: zasilanie, masa i 6 sygnałów sterujących. Wyświetlacz OLED pracuje na magistrali i2c więc oprócz zasilania i masy wymaga tylko dwóch przewodów. Wraz z wyświetlaczem na płytce jest zainstalowany enkoder, on podłączony jest trzema przewodami: dwa do impulsów enkodera i jeden do przycisku, masa jest wykorzystana z masy wyświetlacza.
 PE4302:
+
 •	GPIO25 -> C0.5
 
 •	GPIO26 -> C1
@@ -65,8 +66,11 @@ Do wyświetlacza OLED podłączyłem napięcie 5V a do modułu PE4302 napięcie 
 
 
 Przed kompilacją należy ustawić login i hasło do sieci wifi, linia 42 i 43:
+
 String wifiSSID     = "tu_wpisz_SSID";
+
 String wifiPassword = "tu_wpisz_hasło";
+
 Parametry te można po uruchomieniu z poziomu strony WWW zmienić.
 
 Obsługa tłumika.
@@ -75,8 +79,14 @@ Po włączeniu zasilania na wyświetlaczu pojawia się poziom tłumienia. Obraca
 
 Strona WWW wyświetla poziom tłumienia, umożliwia wpisanie ręczne wartości tłumienia, zmianę z krokiem co 0,5dB jak i wyzerowanie tłumienia.  Dodatkowo mamy 64 przyciski wpisania „szybkiej wartości” tłumienia. Kliknięcie w przycisk od razu wpisze odpowiednią wartość tłumienia.  
 W dolnej części znajduje się okno z możliwością wpisania innej sieci wifi i hasła do niej.
-	Całość została umieszczona w wydrukowanej na drukarce 3d obudowie z materiału PET-G. Z boku obudowy znajdują się dwa gniazda BNC podłączone do płytki tłumika. Całość zasilana jest z zasilacza 5V poprzez gniazdo USB-C z tyłu obudowy. Cały układ pobiera poniżej 1W mocy.
+
+
+Całość została umieszczona w wydrukowanej na drukarce 3d obudowie z materiału PET-G. Z boku obudowy znajdują się dwa gniazda BNC podłączone do płytki tłumika. Całość zasilana jest z zasilacza 5V poprzez gniazdo USB-C z tyłu obudowy. Cały układ pobiera poniżej 1W mocy.
+
+
 
 Opracowanie:
+
 Artur SP3VSS
+
 http://sp3vss.eu
